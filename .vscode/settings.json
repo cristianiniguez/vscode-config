@@ -6,7 +6,7 @@
   "editor.guides.bracketPairs": true,
   "editor.inlineSuggest.enabled": true,
   "editor.linkedEditing": true,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "editor.renderWhitespace": "all",
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -55,6 +55,10 @@
   "[svg]": { "editor.defaultFormatter": "jock.svg" },
   "[xml]": { "editor.defaultFormatter": "redhat.vscode-xml" },
   "[dockercompose]": { "editor.defaultFormatter": "ms-azuretools.vscode-docker" },
+  "[vue]": { "editor.defaultFormatter": "octref.vetur" },
+  "[java]": { "editor.defaultFormatter": "redhat.java" },
+  "[django-html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[graphql]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   /* python */
   "python.languageServer": "Pylance",
   "python.formatting.autopep8Args": ["--max-line-length", "100", "--experimental"],
@@ -89,15 +93,7 @@
     "cpp": "g++ $fullFileName -o $workspaceRoot/bin/$fileNameWithoutExt.exe && $workspaceRoot/bin/$fileNameWithoutExt.exe",
     "java": "javac $fullFileName && echo \"[javac] compilation succesfull - .class file created\""
   },
-  /* GithubGistExplorer */
-  "GithubGistExplorer.github.token": "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",
-  "GithubGistExplorer.github.username": "cristianiniguez",
-  "GithubGistExplorer.explorer.gistSortBy": "Last Updated",
-  "GithubGistExplorer.explorer.gistAscending": false,
-  "GithubGistExplorer.explorer.subscriptionSortBy": "Last Updated",
-  "GithubGistExplorer.explorer.subscriptionAscending": false,
   /* others */
-  "js/ts.implicitProjectConfig.strictNullChecks": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "files.exclude": {
     "**/.classpath": true,
@@ -110,14 +106,6 @@
   },
   "svg.preview.mode": "svg",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "remote.SSH.remotePlatform": {
-    "192.168.163.131": "linux",
-    "192.168.163.129": "linux",
-    "xubuntu20_criniguez": "linux"
-  },
-  "[vue]": {
-    // "editor.defaultFormatter": "octref.vetur"
-  },
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -140,14 +128,5 @@
   "thunder-client.codeSnippetLanguage": "curl",
   "rapidapi.terminalLink.enabled": false,
   "githubPullRequests.terminalLinksHandler": "github",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "[django-html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[graphql]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "diffEditor.ignoreTrimWhitespace": false
 }
